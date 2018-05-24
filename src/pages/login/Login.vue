@@ -1,21 +1,10 @@
 <template>
-    <div class="box">{{ title }}</div>
+    <div :class="$style.red">{{ title }}</div>
 </template>
 
-<script>
-    export default {
-        data() {
-            return {
-                title: '登录'
-            }
-        }
-    }
-</script>
+<script src="./Login.js" type="text/javascript"></script>
 
-<style lang="scss">
-    $color: green;
-    .box {
-        background-color: $color;
-        font-size: 12px;
-    }
+<style module lang="scss">
+    @import './Login.scss';
 </style>
+

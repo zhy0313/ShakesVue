@@ -2,7 +2,9 @@ module.exports = {
     "plugins": {
         "postcss-import": {}, 
         "postcss-url": {}, 
+        // 处理元素容器的宽高比
         "postcss-aspect-ratio-mini": {}, 
+        // 处理移动端1px的问题
         "postcss-write-svg": { 
             utf8: false 
         }, 
