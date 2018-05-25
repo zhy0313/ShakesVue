@@ -16,8 +16,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.15.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
     "cssnano": "^3.10.0",
     "mockjs": "^1.0.1-beta3",
+    "mysql": "^2.15.0",
     "postcss-aspect-ratio-mini": "0.0.2",
     "postcss-cssnext": "^3.1.0",
     "postcss-px-to-viewport": "0.0.3",
@@ -26,7 +29,11 @@
     "react-css-modules": "^4.7.3",
     "vant": "^1.1.4",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-core-image-upload": "^2.4.6",
+    "vue-datasource": "^2.0.7",
+    "vue-i18n": "^7.7.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

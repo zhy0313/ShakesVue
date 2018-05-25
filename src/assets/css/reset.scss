@@ -1,0 +1,26 @@
+$vw_design: 750;
+$vw_fontSize: 75;
+html, body {
+    height: 100%;
+    font-size: ($vw_fontSize / ($vw_design / 2)) * 100vw;
+    @media screen and (max-width: 320px) {
+        font-size: 64px;
+    }
+    @media screen and (max-width: 540px) {
+        font-size: 108px;
+    }
+}
+button {
+    outline: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+img {
+    content: normal !important;
+}
